@@ -39,13 +39,13 @@ span {
 @media (min-width: 1024px){
   .section {
     padding: 3vw 10vw;
-    margin-bottom: 155px;
+    margin-bottom: 120px;
   }
   .title {
     width: 15vw;
     margin-bottom: 100px;
     font-size: 60px;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #762499;
   }
   .text-container{
@@ -59,6 +59,10 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .img-container div {
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .cover {
@@ -75,28 +79,28 @@ span {
     font-size: 40px;
     width: 60vw;
   }
-  .logo-with-d {
+
+  .logotype .logo-with-d {
     background-image: url(imgs/logowd.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 25vw;
     height: 6.9vw;
   }
-  .logo-without-d {
+  .logotype .logo-without-d {
     background-image: url(imgs/jlogo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 25vw;
     height: 6.9vw;
   }
-  .logo-safe {
+  .logotype .logo-safe {
     background-image: url(imgs/logosafe.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 50vw;
     height: 22.1vw;
   }
-
   .logotype .img-container:nth-child(4) {
     justify-content: center;
   }
@@ -114,11 +118,130 @@ span {
     background-repeat: no-repeat;
     width: 30vw;
     height: 35.4vw;
+    background-position: bottom;
   }
   .grid .img-container:nth-child(5) {
     background-image: url(imgs/web-grid.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 33.8vw;
+  }
+  .grid .img-container:nth-child(8) {
+    margin-top: -200px;
+  }
+  .grid .exmpl1 {
+    background-image: url(imgs/exmpl1.png);
+    width: 25vw;
+    height: 35.4vw;
+  }
+  .grid .exmpl2 {
+    background-image: url(imgs/exmpl2.png);
+    width: 30vw;
+    height: 35.4vw;
+  }
+  .grid .exmpl3 {
+    background-image: url(imgs/exmpl3.png);
+    width: 30vw;
+    height: 35.4vw;
+    background-position: bottom;
+  }
+  .grid .exmpl4 {
+    background-image: url(imgs/exmpl4.png);
+    width: 25vw;
+    height: 35.4vw;
+  }
+
+  .colours .yellow {
+    background-image: url(imgs/yellow.png);
+    width: 10vw;
+    height: 14.6vw;
+  }
+  .colours .violet {
+    background-image: url(imgs/violet.png);
+
+    width: 10vw;
+    height: 14.6vw;
+  }
+  .colours .green {
+    background-image: url(imgs/green.png);
+    width: 10vw;
+    height: 14.6vw;
+  }
+  .colours .white {
+    background-image: url(imgs/white.png);
+    width: 10vw;
+    height: 14.6vw;
+  }
+  .colours .c-1 {
+    background-image: url(imgs/c-exmpl1.png);
+    width: 10vw;
+    height: 10vw;
+  }
+  .colours .c-2 {
+    background-image: url(imgs/c-exmpl2.png);
+    width: 10vw;
+    height: 10vw;
+  }
+  .colours .c-3 {
+    background-image: url(imgs/c-exmpl3.png);
+    width: 10vw;
+    height: 10vw;
+  }
+  .colours .c-4 {
+    background-image: url(imgs/c-exmpl4.png);
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .typography .img-container:nth-child(2) {
+    background-image: url(imgs/MenoeGrotesque.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15vw;
+    margin-bottom: 28px;
+  }
+  .typography .img-container:nth-child(4) {
+    background-image: url(imgs/Geometria.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15vw;
+    margin-bottom: 28px;
+  }
+
+  .graphic .photo1 {
+    background-image: url(imgs/photo1.png);
+    width: 15vw;
+    height: 15vw;
+  }
+  .graphic .photo2 {
+    background-image: url(imgs/photo2.png);
+    width: 15vw;
+    height: 15vw;
+  }
+  .graphic .photo3 {
+    background-image: url(imgs/photo3.png);
+    width: 15vw;
+    height: 15vw;
+  }
+  .graphic .ill1 {
+    background-image: url(imgs/ill1.png);
+    background-position: center;
+    width: 25vw;
+    height: 10vw;
+  }
+  .graphic .ill2 {
+    background-image: url(imgs/ill2.png);
+    background-position: center;
+    width: 10vw;
+    height: 10vw;
+  }
+  .graphic .ill3 {
+    background-image: url(imgs/ill3.png);
+    background-position: center;
+    width: 10vw;
+    height: 10vw;
+  }
+  .graphic {
+    margin-bottom: 0px;
   }
 }
