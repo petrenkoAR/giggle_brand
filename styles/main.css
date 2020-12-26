@@ -1,0 +1,124 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Menoe-Grotesque-Pro, sans-serif;
+  width: 100vw;
+}
+.section {
+  color: #762499;
+}
+span {
+  text-decoration: underline;
+}
+.title,
+.text-container {
+  line-height: 105%;
+  letter-spacing: -1%;
+}
+.cover {
+  height: auto;
+  min-height: 100vh;
+  color: #FFD239;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cover .logo {
+  background-image: url(imgs/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3.2vw;
+}
+
+@media (min-width: 1024px){
+  .section {
+    padding: 3vw 10vw;
+    margin-bottom: 155px;
+  }
+  .title {
+    width: 15vw;
+    margin-bottom: 100px;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #762499;
+  }
+  .text-container{
+    width: 45vw;
+    font-size: 20px;
+    margin: 0 0 100px 20vw;
+  }
+  .img-container {
+    width: 60vw;
+    margin: 0 0 100px 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cover {
+    color: #FFD239;
+    background-image: url(imgs/bg.png);
+  }
+  .cover .logo {
+    background-image: url(imgs/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3.2vw;
+  }
+  .cover .text-container{
+    font-size: 40px;
+    width: 60vw;
+  }
+  .logo-with-d {
+    background-image: url(imgs/logowd.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 6.9vw;
+  }
+  .logo-without-d {
+    background-image: url(imgs/jlogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 6.9vw;
+  }
+  .logo-safe {
+    background-image: url(imgs/logosafe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 22.1vw;
+  }
+
+  .logotype .img-container:nth-child(4) {
+    justify-content: center;
+  }
+
+  .grid .vert-grid {
+    background-image: url(imgs/hor-grid.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 35.4vw;
+  }
+  .grid .hor-grid {
+    background-image: url(imgs/vert-grid.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 35.4vw;
+  }
+  .grid .img-container:nth-child(5) {
+    background-image: url(imgs/web-grid.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 33.8vw;
+  }
+}
